@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="981px" height="236px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5053 1217"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:4.63504}
+    .fil0 {fill:#2B2A29}
+    .fil2 {fill:#FEFDFD}
+    .fil1 {fill:url(#id0)}
+    .fnt0 {font-weight:bold;font-size:586.899px;font-family:'Inter'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="-0" y1="608.273" x2="1216.55" y2="608.273">
+   <stop offset="0" style="stop-opacity:1; stop-color:#343273"/>
+   <stop offset="0.490196" style="stop-opacity:1; stop-color:#72347D"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#B23187"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2290693754656">
+   <text x="1287" y="509"  class="fil0 str0 fnt0">Dheeru Tools </text>
+   <text x="1287" y="1007"  class="fil0 str0 fnt0">&amp; Trading</text>
+   <circle class="fil1" cx="608" cy="608" r="608"/>
+   <g>
+    <path class="fil2" d="M185 499c-4,9 -34,25 -58,72 -37,70 -35,141 1,211 18,36 54,64 57,70 16,5 36,26 82,38 56,14 77,1 107,3 10,-8 33,-9 71,-33 21,-13 41,-32 55,-50 36,-51 45,-93 45,-168 0,-70 0,-140 0,-209 0,-23 5,-88 -5,-101 -14,-16 -44,-36 -55,-53 -11,-7 -22,-24 -33,-29 4,101 0,209 0,310 0,96 19,189 -77,233 -86,39 -174,-26 -181,-105 -5,-48 18,-89 43,-110 34,-28 62,-36 118,-29l21 -90c-44,-5 -65,-10 -109,1 -47,12 -65,33 -82,39z"/>
+    <path class="fil2" d="M670 842c39,21 61,54 146,54l1 -92c-73,-3 -129,-60 -126,-108 -5,-5 -4,-7 -4,-16l0 -134 128 0 0 -92 -128 0c0,-36 0,-71 0,-106l0 -90c-2,-14 3,-5 -5,-12 -13,24 -85,76 -87,99 -5,55 0,135 0,192 0,101 -17,201 51,279l17 18c5,5 3,2 7,8z"/>
+    <path class="fil2" d="M887 799c24,29 36,46 72,67 35,19 66,31 112,30l0 -92c-67,-2 -128,-53 -129,-118 -8,-15 -5,-116 -2,-140 22,-6 98,-1 128,-2l0 -89 -127 -1c-8,-23 2,-167 -3,-208l-1 1c-10,13 -30,32 -43,45 -8,8 -37,35 -42,42 -7,11 -3,298 -3,334 0,52 15,97 38,131z"/>
+   </g>
+  </g>
+ </g>
+</svg>
