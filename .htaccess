@@ -1,0 +1,48 @@
+
+# Content Security Policy (CSP)
+
+
+# X-Frame-Options to prevent clickjacking
+Header always set X-Frame-Options "SAMEORIGIN"
+
+# X-XSS-Protection to prevent cross-site scripting (XSS) attacks
+Header set X-XSS-Protection "1; mode=block"
+
+# Referrer-Policy to control what information is shared in the Referer header
+Header always set Referrer-Policy "no-referrer"
+
+# X-Content-Type-Options to prevent MIME-sniffing
+Header set X-Content-Type-Options "nosniff"
+
+# Strict-Transport-Security (HSTS) to enforce HTTPS
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+# Permissions Policy to restrict APIs
+Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+
+# Cache-Control for security and performance
+Header always set Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+
+# Expect-CT to enforce Certificate Transparency
+Header always set Expect-CT "max-age=86400, enforce"
+
+# Access-Control-Allow-Origin (CORS)
+    Header set Access-Control-Allow-Origin "defendly.ai"
+    # Set to "*" to allow all domains, or specify your domain instead of "*", e.g., https://yourdomain.co
+    
+# Cross-Origin-Resource-Policy (CORP)
+    Header always set Cross-Origin-Resource-Policy "same-origin"
+    # You can change "same-origin" to "same-site" or "cross-origin" depending on your needs
+    
+# Cross-Origin-Embedder-Policy (COEP) to prevent cross-origin attacks
+    Header always set Cross-Origin-Embedder-Policy "require-corp"
+
+# Cross-Origin-Opener-Policy (COOP) to isolate browsing context
+    Header always set Cross-Origin-Opener-Policy "same-origin"
+    
+    
+# X-DNS-Prefetch-Control to control DNS prefetching
+    Header always set X-DNS-Prefetch-Control "off"
+
+# # Set-Cookie with security attributes
+    Header set Set-Cookie "sessionId=bughunters; HttpOnly; Secure; SameSite=Strict"
