@@ -1,6 +1,6 @@
 
 # Content Security Policy (CSP)
-
+ 
 
 # X-Frame-Options to prevent clickjacking
 Header always set X-Frame-Options "SAMEORIGIN"
